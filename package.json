@@ -1,0 +1,13 @@
+{
+	"name": "mock-server",
+	"module": "index.ts",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.5.4"
+	},
+	"trustedDependencies": ["@biomejs/biome"]
+}
